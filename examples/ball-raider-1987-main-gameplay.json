@@ -1,0 +1,198 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "https://tropy.org/v1/tropy#",
+    "template": {
+      "@type": "@id"
+    },
+    "photo": {
+      "@id": "https://tropy.org/v1/tropy#photo",
+      "@container": "@list"
+    },
+    "note": {
+      "@id": "https://tropy.org/v1/tropy#note",
+      "@container": "@list"
+    },
+    "selection": {
+      "@id": "https://tropy.org/v1/tropy#selection",
+      "@container": "@list"
+    },
+    "title": "http://purl.org/dc/elements/1.1/title",
+    "has_ocularization": "https://www.ludov.ca/index.php/en/observation/graphical-technologies/game-favr#has_ocularization",
+    "has_framing_mechanism": "https://www.ludov.ca/index.php/en/observation/graphical-technologies/game-favr#has_framing_mechanism",
+    "date": {
+      "@id": "http://purl.org/dc/elements/1.1/date",
+      "@type": "https://tropy.org/v1/tropy#date"
+    },
+    "is_triplanar_construct": "https://www.ludov.ca/index.php/en/observation/graphical-technologies/game-favr#is_triplanar_construct",
+    "has_graphical_material": "https://www.ludov.ca/index.php/en/observation/graphical-technologies/game-favr#has_graphical_material",
+    "has_projection_method": "https://www.ludov.ca/index.php/en/observation/graphical-technologies/game-favr#has_projection_method",
+    "has_angle_of_projection": "https://www.ludov.ca/index.php/en/observation/graphical-technologies/game-favr#has_angle_of_projection"
+  },
+  "@graph": [
+    {
+      "@type": "Item",
+      "template": "http://w3id.org/favr#mode",
+      "title": "Main Gameplay",
+      "has_ocularization": "External; Zero ergodic",
+      "has_framing_mechanism": "Anchorless; Fixed",
+      "list": [
+        "Screens",
+        "FAVR"
+      ],
+      "photo": [
+        {
+          "@type": "Photo",
+          "checksum": "72f57c337f64351ba6a4cda124708b3d",
+          "color": "rgb(8,8,8,1)",
+          "density": null,
+          "filename": "ball-raider-1987-main-gameplay.png",
+          "mimetype": "image/png",
+          "orientation": 1,
+          "page": 0,
+          "path": "ball-raider-1987-main-gameplay.png",
+          "protocol": "file",
+          "size": 1071141,
+          "template": "https://tropy.org/v1/templates/photo",
+          "angle": 0,
+          "brightness": 0,
+          "contrast": 0,
+          "height": 1964,
+          "hue": 0,
+          "mirror": false,
+          "negative": false,
+          "saturation": 0,
+          "sharpen": 0,
+          "width": 3024,
+          "date": "2023-07-17T07:41:34.444Z",
+          "title": "ball-raider-1987-main-gameplay",
+          "selection": [
+            {
+              "@type": "Selection",
+              "template": "http://w3id.org/favr#intangible-space",
+              "x": 2036,
+              "y": 118,
+              "angle": 0,
+              "brightness": 0,
+              "contrast": 0,
+              "height": 1120,
+              "hue": 0,
+              "mirror": false,
+              "negative": false,
+              "saturation": 0,
+              "sharpen": 0,
+              "width": 613,
+              "title": "Game Stats"
+            },
+            {
+              "@type": "Selection",
+              "template": "http://w3id.org/favr#tangible-space",
+              "x": 368,
+              "y": 117,
+              "angle": 0,
+              "brightness": 0,
+              "contrast": 0,
+              "height": 1409,
+              "hue": 0,
+              "mirror": false,
+              "negative": false,
+              "saturation": 0,
+              "sharpen": 0,
+              "width": 1640,
+              "is_triplanar_construct": "In-game env",
+              "title": "Main Game Area",
+              "has_graphical_material": "Raster graphics",
+              "has_projection_method": "Orthogonal",
+              "has_angle_of_projection": "Horizontal"
+            },
+            {
+              "@type": "Selection",
+              "template": "http://w3id.org/favr#negative-space",
+              "x": 2034,
+              "y": 1238,
+              "angle": 0,
+              "brightness": 0,
+              "contrast": 0,
+              "height": 298,
+              "hue": 0,
+              "mirror": false,
+              "negative": false,
+              "saturation": 0,
+              "sharpen": 0,
+              "width": 615,
+              "title": "Logo"
+            },
+            {
+              "@type": "Selection",
+              "template": "http://w3id.org/favr#tangible-space",
+              "x": 1050,
+              "y": 1354,
+              "angle": 0,
+              "brightness": 0,
+              "contrast": 0,
+              "height": 135,
+              "hue": 0,
+              "mirror": false,
+              "negative": false,
+              "saturation": 0,
+              "sharpen": 0,
+              "width": 258,
+              "title": "Paddle",
+              "is_triplanar_construct": "Agent"
+            },
+            {
+              "@type": "Selection",
+              "template": "http://w3id.org/favr#tangible-space",
+              "x": 568,
+              "y": 1088,
+              "angle": 0,
+              "brightness": 0,
+              "contrast": 0,
+              "height": 119,
+              "hue": 0,
+              "mirror": false,
+              "negative": false,
+              "saturation": 0,
+              "sharpen": 0,
+              "width": 136,
+              "title": "Mouse Pointer",
+              "is_triplanar_construct": "Agent",
+              "note": [
+                {
+                  "@type": "Note",
+                  "text": {
+                    "@value": "The mouse pointer is present and can be moved, but is not used in-game.",
+                    "@language": "en"
+                  },
+                  "markdown": {
+                    "@value": "The mouse pointer is present and can be moved, but is not used in-game.",
+                    "@language": "en"
+                  }
+                }
+              ]
+            },
+            {
+              "@type": "Selection",
+              "template": "http://w3id.org/favr#tangible-space",
+              "x": 468,
+              "y": 218,
+              "angle": 0,
+              "brightness": 0,
+              "contrast": 0,
+              "height": 508,
+              "hue": 0,
+              "mirror": false,
+              "negative": false,
+              "saturation": 0,
+              "sharpen": 0,
+              "width": 1435,
+              "is_triplanar_construct": "Agent",
+              "title": "Bricks"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "version": "1.14.0"
+}
