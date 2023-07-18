@@ -1,4 +1,4 @@
-@prefix favr: <https://www.ludov.ca/index.php/en/observation/graphical-technologies/game-favr#> .
+@prefix favr: <http://w3id.org/favr#> .
 @prefix vir: <http://w3id.org/vir#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix vann: <http://purl.org/vocab/vann/> .
@@ -7,12 +7,12 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 
-<https://www.ludov.ca/index.php/en/observation/graphical-technologies/game-favr>
+<http://w3id.org/favr#>
 	a owl:Ontology ;
 	dc:title "FAVR" ;
 	dc:description "Framework for the Analysis of Visual Representation in Video Games. This ontology is based on the game FAVR, a  model  that allows any game's visual representation to be described and discussed through a common  frame  and  vocabulary." ;
 	vann:preferredNamespacePrefix "favr" ;
-	vann:preferredNamespaceUri <http://xmlns.com/favr/0.1/> ;
+	vann:preferredNamespaceUri <http://w3id.org/favr#> ;
 	dc:created "2023-07-17"^^xsd:date ;
 	dc:modified "2023-07-18"^^xsd:date ;
 	dc:contributor "Arsenault, Dominic, Pierre-Marc Côté, Audrey Larochelle" ;
