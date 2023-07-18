@@ -6,4 +6,6 @@ This is an attempt to build an ontology out of [FAVR](https://www.ludov.ca/index
 
 ---
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8158800.svg)](https://doi.org/10.5281/zenodo.8158800)
+
 This work is published under [CC0 1.0 Universal](LICENSE). Contact me via [thgie.ch](https://thgie.ch).
