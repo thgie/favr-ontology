@@ -100,13 +100,13 @@
 ### Mode Properties
 
 	favr:has_ocularization a rdf:Property ;
-		rdfs:label "has a ocularization"@en ;
+		rdfs:label "has ocularization"@en ;
 		rdfs:domain favr:Mode ;
 		rdfs:range favr:Ocularization ;
 		rdfs:isDefinedBy <https://www.ludov.ca/index.php/en/observation/graphical-technologies/game-favr> .
 
 	favr:has_framing_mechanism a rdf:Property ;
-		rdfs:label "has a Framing mechanism"@en ;
+		rdfs:label "has framing mechanism"@en ;
 		rdfs:domain favr:Mode ;
 		rdfs:range favr:Framing_Mechanism ;
 		rdfs:isDefinedBy <https://www.ludov.ca/index.php/en/observation/graphical-technologies/game-favr> .
@@ -115,25 +115,25 @@
 ### Tangible Space Properties
 
 	favr:is_triplanar_construct a rdf:Property ;
-		rdfs:label "is a triplanar construct"@en ;
+		rdfs:label "is triplanar construct"@en ;
 		rdfs:domain favr:Tangible_Space ;
 		rdfs:range favr:Triplanar_Construction ;
 		rdfs:isDefinedBy <https://www.ludov.ca/index.php/en/observation/graphical-technologies/game-favr> .
 
 	favr:has_graphical_material a rdf:Property ;
-		rdfs:label "has a graphical material"@en ;
+		rdfs:label "has graphical material"@en ;
 		rdfs:domain favr:Tangible_Space ;
 		rdfs:range favr:Graphical_Material ;
 		rdfs:isDefinedBy <https://www.ludov.ca/index.php/en/observation/graphical-technologies/game-favr> .
 
 	favr:has_projection_method a rdf:Property ;
-		rdfs:label "has a projection method"@en ;
+		rdfs:label "has projection method"@en ;
 		rdfs:domain favr:Tangible_Space ;
 		rdfs:range favr:Projection_Method ;
 		rdfs:isDefinedBy <https://www.ludov.ca/index.php/en/observation/graphical-technologies/game-favr> .
 
 	favr:has_angle_of_projection a rdf:Property ;
-		rdfs:label "has a angle of projection"@en ;
+		rdfs:label "has angle of projection"@en ;
 		rdfs:domain favr:Tangible_Space ;
 		rdfs:range favr:Angle_Of_Projection ;
 		rdfs:isDefinedBy <https://www.ludov.ca/index.php/en/observation/graphical-technologies/game-favr> .
