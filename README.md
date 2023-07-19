@@ -1,10 +1,16 @@
 # FAVR Ontology
 This is an attempt to build an ontology out of [FAVR](https://www.ludov.ca/index.php/en/observation/graphical-technologies/game-favr), the framework for the analysis of visual representation in video games. This repository also holds the exported [Tropy](https://www.tropy.org/) templates that implemented the ontology.
 
-## Ontology Visualization
+- [Visualization](#visualization)
+- [Documentation](#documentation)
+- [Tropy Templates](#tropy-templates)
+- [Examples](#examples)
+- [Imprint](#imprint)
+
+## Visualization
 ![Visualization of the FAVR ontology.](favr.ttl.svg)
 
-## Ontology Documentation
+## Documentation
 Documentation will follow soon.
 
 ### Classes
