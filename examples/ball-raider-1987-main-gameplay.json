@@ -20,6 +20,10 @@
     "title": "http://purl.org/dc/elements/1.1/title",
     "has_ocularization": "https://www.ludov.ca/index.php/en/observation/graphical-technologies/game-favr#has_ocularization",
     "has_framing_mechanism": "https://www.ludov.ca/index.php/en/observation/graphical-technologies/game-favr#has_framing_mechanism",
+    "colorContent": {
+      "@id": "http://id.loc.gov/ontologies/bibframe/colorContent",
+      "@type": "http://purl.org/dc/terms/Box"
+    },
     "date": {
       "@id": "http://purl.org/dc/elements/1.1/date",
       "@type": "https://tropy.org/v1/tropy#date"
@@ -36,6 +40,7 @@
       "title": "Main Gameplay",
       "has_ocularization": "External; Zero ergodic",
       "has_framing_mechanism": "Anchorless; Fixed",
+      "colorContent": "46.5017%,#000000FF; 10.4712%,#FED3B0FF; 10.4448%,#C96B4AFF; 9.7798%,#7C0304FF; 9.36823%,#F09C7BFF; 8.00938%,#570066FF; 4.59905%,#9202A1FF; 0.825709%,#5D432DFF;",
       "list": [
         "Screens",
         "FAVR"

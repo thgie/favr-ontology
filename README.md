@@ -4,6 +4,36 @@ This is an attempt to build an ontology out of [FAVR](https://www.ludov.ca/index
 ## Ontology Visualization
 ![Visualization of the FAVR ontology.](favr.ttl.svg)
 
+## Ontology Documentation
+Documentation will follow soon.
+
+### Classes
+#### Mode
+#### Space
+#### Negative Space
+#### Intangible Space
+#### Tangible Space
+#### Ocularization
+#### Framing Mechanism
+#### Triplanar Construction
+#### Graphical Material
+#### Projection Method
+#### Angle Of Projection
+
+### Properties
+#### has ocularization
+#### has framing mechanism
+#### is triplanar construct
+#### has graphical material
+#### has projection method
+#### has angle of projection
+
+## Tropy Templates
+- [FAVR Mode](tropy/FAVR%20Mode.ttp)
+- [FAVR Negative Space](tropy/FAVR%20Negative%20Space.ttp)
+- [FAVR Intangible Space](tropy/FAVR%20Intangible%20Space.ttp)
+- [FAVR Tangible Space](tropy/FAVR%20Intangible%20Space.ttp)
+
 ## Examples
 ### Ball Raider (1987)
 
