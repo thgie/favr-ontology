@@ -27,12 +27,12 @@ Documentation will follow soon.
 #### Angle Of Projection
 
 ### Properties
-#### has ocularization
-#### has framing mechanism
-#### is triplanar construct
-#### has graphical material
-#### has projection method
-#### has angle of projection
+#### has_ocularization
+#### has_framing_mechanism
+#### is_triplanar_construct
+#### has_graphical_material
+#### has_projection_method
+#### has_angle_of_projection
 
 ## Tropy Templates
 - [FAVR Mode](tropy/FAVR%20Mode.ttp)

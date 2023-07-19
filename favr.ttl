@@ -25,34 +25,29 @@
 		a rdfs:Class ;
 		rdfs:label "Mode"@en ;
 		rdfs:comment "Visual modes are not an inherent reality awaiting discovery in games, but are created by the analyst for the purpose of discussing and analyzing games."@en ;
-		rdfs:subClassOf vir:IC9_Representation ;
-		rdfs:isDefinedBy <https://www.ludov.ca/index.php/en/observation/graphical-technologies/game-favr> .
+		rdfs:subClassOf vir:IC9_Representation .
 
 	favr:Space
 		a rdfs:Class ;
 		rdfs:label "Space"@en ;
 		rdfs:comment "Can be tangible, intangible, or negative."@en ;
-		rdfs:subClassOf vir:IC10_Attribute ;
-		rdfs:isDefinedBy <https://www.ludov.ca/index.php/en/observation/graphical-technologies/game-favr> .
+		rdfs:subClassOf vir:IC10_Attribute .
 
 	favr:Negative_Space
 		a rdfs:Class ;
 		rdfs:label "Negative space"@en ;
-		rdfs:subClassOf favr:Space ;
-		rdfs:isDefinedBy <https://www.ludov.ca/index.php/en/observation/graphical-technologies/game-favr> .
+		rdfs:subClassOf favr:Space .
 
 	favr:Intangible_Space
 		a rdfs:Class ;
 		rdfs:label "Intangible space"@en ;
-		rdfs:subClassOf favr:Space ;
-		rdfs:isDefinedBy <https://www.ludov.ca/index.php/en/observation/graphical-technologies/game-favr> .
+		rdfs:subClassOf favr:Space .
 
 	favr:Tangible_Space
 		a rdfs:Class ;
 		rdfs:label "Tangible space"@en ;
 		rdfs:comment "Can be an agent, or in-game or off-game environment through its triplanar construction."@en ;
-		rdfs:subClassOf favr:Space ;
-		rdfs:isDefinedBy <https://www.ludov.ca/index.php/en/observation/graphical-technologies/game-favr> .
+		rdfs:subClassOf favr:Space .
 
 
 ### Mode Property Classes
@@ -60,14 +55,12 @@
 	favr:Ocularization
 		a rdfs:Class ;
 		rdfs:label "Ocularization"@en ;
-		rdfs:subClassOf vir:IC10_Attribute ;
-		rdfs:isDefinedBy <https://www.ludov.ca/index.php/en/observation/graphical-technologies/game-favr> .
+		rdfs:subClassOf vir:IC10_Attribute .
 
 	favr:Framing_Mechanism
 		a rdfs:Class ;
 		rdfs:label "Framing Mechanism"@en ;
-		rdfs:subClassOf vir:IC10_Attribute ;
-		rdfs:isDefinedBy <https://www.ludov.ca/index.php/en/observation/graphical-technologies/game-favr> .
+		rdfs:subClassOf vir:IC10_Attribute .
 
 
 ### Tangible Space Property Classes
@@ -75,26 +68,22 @@
 	favr:Triplanar_Construction
 		a rdfs:Class ;
 		rdfs:label "Triplanar Construction"@en ;
-		rdfs:subClassOf vir:IC10_Attribute ;
-		rdfs:isDefinedBy <https://www.ludov.ca/index.php/en/observation/graphical-technologies/game-favr> .
+		rdfs:subClassOf vir:IC10_Attribute .
 
 	favr:Graphical_Material
 		a rdfs:Class ;
 		rdfs:label "Graphical material"@en ;
-		rdfs:subClassOf vir:IC10_Attribute ;
-		rdfs:isDefinedBy <https://www.ludov.ca/index.php/en/observation/graphical-technologies/game-favr> .
+		rdfs:subClassOf vir:IC10_Attribute .
 
 	favr:Projection_Method
 		a rdfs:Class ;
 		rdfs:label "Projection method"@en ;
-		rdfs:subClassOf vir:IC10_Attribute ;
-		rdfs:isDefinedBy <https://www.ludov.ca/index.php/en/observation/graphical-technologies/game-favr> .
+		rdfs:subClassOf vir:IC10_Attribute .
 
 	favr:Angle_Of_Projection
 		a rdfs:Class ;
 		rdfs:label "Angle of projection"@en ;
-		rdfs:subClassOf vir:IC10_Attribute ;
-		rdfs:isDefinedBy <https://www.ludov.ca/index.php/en/observation/graphical-technologies/game-favr> .
+		rdfs:subClassOf vir:IC10_Attribute .
 
 
 ### Mode Properties
@@ -102,14 +91,12 @@
 	favr:has_ocularization a rdf:Property ;
 		rdfs:label "has ocularization"@en ;
 		rdfs:domain favr:Mode ;
-		rdfs:range favr:Ocularization ;
-		rdfs:isDefinedBy <https://www.ludov.ca/index.php/en/observation/graphical-technologies/game-favr> .
+		rdfs:range favr:Ocularization .
 
 	favr:has_framing_mechanism a rdf:Property ;
 		rdfs:label "has framing mechanism"@en ;
 		rdfs:domain favr:Mode ;
-		rdfs:range favr:Framing_Mechanism ;
-		rdfs:isDefinedBy <https://www.ludov.ca/index.php/en/observation/graphical-technologies/game-favr> .
+		rdfs:range favr:Framing_Mechanism .
 
 
 ### Tangible Space Properties
@@ -117,23 +104,19 @@
 	favr:is_triplanar_construct a rdf:Property ;
 		rdfs:label "is triplanar construct"@en ;
 		rdfs:domain favr:Tangible_Space ;
-		rdfs:range favr:Triplanar_Construction ;
-		rdfs:isDefinedBy <https://www.ludov.ca/index.php/en/observation/graphical-technologies/game-favr> .
+		rdfs:range favr:Triplanar_Construction .
 
 	favr:has_graphical_material a rdf:Property ;
 		rdfs:label "has graphical material"@en ;
 		rdfs:domain favr:Tangible_Space ;
-		rdfs:range favr:Graphical_Material ;
-		rdfs:isDefinedBy <https://www.ludov.ca/index.php/en/observation/graphical-technologies/game-favr> .
+		rdfs:range favr:Graphical_Material .
 
 	favr:has_projection_method a rdf:Property ;
 		rdfs:label "has projection method"@en ;
 		rdfs:domain favr:Tangible_Space ;
-		rdfs:range favr:Projection_Method ;
-		rdfs:isDefinedBy <https://www.ludov.ca/index.php/en/observation/graphical-technologies/game-favr> .
+		rdfs:range favr:Projection_Method .
 
 	favr:has_angle_of_projection a rdf:Property ;
 		rdfs:label "has angle of projection"@en ;
 		rdfs:domain favr:Tangible_Space ;
-		rdfs:range favr:Angle_Of_Projection ;
-		rdfs:isDefinedBy <https://www.ludov.ca/index.php/en/observation/graphical-technologies/game-favr> .
+		rdfs:range favr:Angle_Of_Projection .

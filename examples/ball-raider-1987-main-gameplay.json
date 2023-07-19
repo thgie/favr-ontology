@@ -18,29 +18,29 @@
       "@container": "@list"
     },
     "title": "http://purl.org/dc/elements/1.1/title",
-    "has_ocularization": "https://www.ludov.ca/index.php/en/observation/graphical-technologies/game-favr#has_ocularization",
-    "has_framing_mechanism": "https://www.ludov.ca/index.php/en/observation/graphical-technologies/game-favr#has_framing_mechanism",
     "colorContent": {
       "@id": "http://id.loc.gov/ontologies/bibframe/colorContent",
       "@type": "http://purl.org/dc/terms/Box"
     },
+    "has_ocularization": "http://w3id.org/favr#has_ocularization",
+    "has_framing_mechanism": "http://w3id.org/favr#has_framing_mechanism",
     "date": {
       "@id": "http://purl.org/dc/elements/1.1/date",
       "@type": "https://tropy.org/v1/tropy#date"
     },
-    "is_triplanar_construct": "https://www.ludov.ca/index.php/en/observation/graphical-technologies/game-favr#is_triplanar_construct",
-    "has_graphical_material": "https://www.ludov.ca/index.php/en/observation/graphical-technologies/game-favr#has_graphical_material",
-    "has_projection_method": "https://www.ludov.ca/index.php/en/observation/graphical-technologies/game-favr#has_projection_method",
-    "has_angle_of_projection": "https://www.ludov.ca/index.php/en/observation/graphical-technologies/game-favr#has_angle_of_projection"
+    "is_triplanar_construct": "http://w3id.org/favr#is_triplanar_construct",
+    "has_graphical_material": "http://w3id.org/favr#has_graphical_material",
+    "has_projection_method": "http://w3id.org/favr#has_projection_method",
+    "has_angle_of_projection": "http://w3id.org/favr#has_angle_of_projection"
   },
   "@graph": [
     {
       "@type": "Item",
       "template": "http://w3id.org/favr#mode",
       "title": "Main Gameplay",
+      "colorContent": "46.5017%,#000000FF; 10.4712%,#FED3B0FF; 10.4448%,#C96B4AFF; 9.7798%,#7C0304FF; 9.36823%,#F09C7BFF; 8.00938%,#570066FF; 4.59905%,#9202A1FF; 0.825709%,#5D432DFF;",
       "has_ocularization": "External; Zero ergodic",
       "has_framing_mechanism": "Anchorless; Fixed",
-      "colorContent": "46.5017%,#000000FF; 10.4712%,#FED3B0FF; 10.4448%,#C96B4AFF; 9.7798%,#7C0304FF; 9.36823%,#F09C7BFF; 8.00938%,#570066FF; 4.59905%,#9202A1FF; 0.825709%,#5D432DFF;",
       "list": [
         "Screens",
         "FAVR"
@@ -104,8 +104,8 @@
               "saturation": 0,
               "sharpen": 0,
               "width": 1640,
-              "is_triplanar_construct": "In-game env",
               "title": "Main Game Area",
+              "is_triplanar_construct": "In-game env",
               "has_graphical_material": "Raster graphics",
               "has_projection_method": "Orthogonal",
               "has_angle_of_projection": "Horizontal"
@@ -191,8 +191,8 @@
               "saturation": 0,
               "sharpen": 0,
               "width": 1435,
-              "is_triplanar_construct": "Agent",
-              "title": "Bricks"
+              "title": "Bricks",
+              "is_triplanar_construct": "Agent"
             }
           ]
         }
