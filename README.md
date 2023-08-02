@@ -60,6 +60,7 @@ The FAVR was developed by
 - Dominic Arsenault, dominic.arsenault@umontreal.ca
 - Pierre-Marc Côté, pierre-marc.cote.1@umontreal.ca
 - Audrey Larochelle, audrey.larochelle@umontreal.ca
+- Sacha Lebel
 
 Read the paper on the model at [https://journals.sfu.ca/loading/index.php/loading/article/view/155/190](https://journals.sfu.ca/loading/index.php/loading/article/view/155/190).
 
