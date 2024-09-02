@@ -1,0 +1,19 @@
+{
+    "@context": "https://tropy.org/v1/contexts/template.jsonld",
+    "@id": "http://w3id.org/favr#construction",
+    "@type": "https://tropy.org/v1/tropy#Template",
+    "type": "https://tropy.org/v1/tropy#Photo",
+    "name": "Construction",
+    "version": 1.0,
+    "domain": [],
+    "creator": "Adrian Demleitner",
+    "description": null,
+    "field": [{
+        "datatype": "http://www.w3.org/2001/XMLSchema#string",
+        "isConstant": false,
+        "isRequired": false,
+        "label": "Label",
+        "property": "http://purl.org/dc/elements/1.1/title",
+        "value": null
+    }]
+}

@@ -1,0 +1,28 @@
+{
+    "@context": "https://tropy.org/v1/contexts/template.jsonld",
+    "@id": "http://w3id.org/favr#space",
+    "@type": "https://tropy.org/v1/tropy#Template",
+    "type": "https://tropy.org/v1/tropy#Selection",
+    "name": "Space",
+    "version": 1.0,
+    "domain": [],
+    "creator": "Adrian Demleitner",
+    "description": null,
+    "field": [{
+        "datatype": "http://www.w3.org/2001/XMLSchema#string",
+        "hint": null,
+        "isConstant": false,
+        "isRequired": false,
+        "label": "Label",
+        "property": "http://purl.org/dc/elements/1.1/title",
+        "value": null
+    }, {
+        "datatype": "http://www.w3.org/2001/XMLSchema#string",
+        "hint": "tangible, intangible, or negative",
+        "isConstant": false,
+        "isRequired": false,
+        "label": "Type",
+        "property": "http://w3id.org/favr#plane",
+        "value": null
+    }]
+}

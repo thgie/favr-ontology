@@ -1,0 +1,52 @@
+{
+    "@context": "https://tropy.org/v1/contexts/template.jsonld",
+    "@id": "http://w3id.org/favr#mode",
+    "@type": "https://tropy.org/v1/tropy#Template",
+    "type": "https://tropy.org/v1/tropy#Item",
+    "name": "Mode",
+    "version": 1.0,
+    "domain": [],
+    "creator": "Adrian Demleitner",
+    "description": "",
+    "field": [{
+        "datatype": "http://www.w3.org/2001/XMLSchema#string",
+        "hint": null,
+        "isConstant": false,
+        "isRequired": false,
+        "label": "Label",
+        "property": "http://purl.org/dc/elements/1.1/title",
+        "value": null
+    }, {
+        "datatype": "http://www.w3.org/2001/XMLSchema#string",
+        "hint": null,
+        "isConstant": false,
+        "isRequired": false,
+        "label": "Ocularization",
+        "property": "http://w3id.org/favr#ocularization",
+        "value": null
+    }, {
+        "datatype": "http://www.w3.org/2001/XMLSchema#string",
+        "hint": null,
+        "isConstant": false,
+        "isRequired": false,
+        "label": "Framing mechanism",
+        "property": "http://w3id.org/favr#framing-mechanism",
+        "value": null
+    }, {
+        "datatype": "http://www.w3.org/2001/XMLSchema#string",
+        "hint": null,
+        "isConstant": false,
+        "isRequired": false,
+        "label": "Anchor",
+        "property": "http://w3id.org/favr#anchor",
+        "value": null
+    }, {
+        "datatype": "http://www.w3.org/2001/XMLSchema#string",
+        "hint": null,
+        "isConstant": false,
+        "isRequired": false,
+        "label": "Mobility",
+        "property": "http://w3id.org/favr#mobility",
+        "value": null
+    }]
+}

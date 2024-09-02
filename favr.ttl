@@ -166,6 +166,11 @@
 		rdfs:label "Agent"@en ;
 		rdfs:subClassOf favr:Plane .
 
+	favr:Ludeme
+		a rdfs:Class ;
+		rdfs:label "Ludeme"@en ;
+		rdfs:subClassOf favr:Plane .
+
 ### Plane Property Classes
 
 	favr:Graphical_Material
@@ -181,6 +186,11 @@
 	favr:Angle_Of_Projection
 		a rdfs:Class ;
 		rdfs:label "Angle of projection"@en ;
+		rdfs:subClassOf vir:IC10_Attribute .
+
+	favr:Motion
+		a rdfs:Class ;
+		rdfs:label "Motion"@en ;
 		rdfs:subClassOf vir:IC10_Attribute .
 
 ### Plane Properties
@@ -199,4 +209,9 @@
 		rdfs:label "has angle of projection"@en ;
 		rdfs:domain favr:Plane ;
 		rdfs:range favr:Angle_Of_Projection .
+
+	favr:has_motion a rdf:Property ;
+		rdfs:label "has degree of motion"@en ;
+		rdfs:domain favr:Plane ;
+		rdfs:range favr:Motion .
 
