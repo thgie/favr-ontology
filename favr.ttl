@@ -63,6 +63,18 @@
 		a rdfs:Class ;
 		rdfs:label "Framing Mechanism"@en ;
 		rdfs:subClassOf vir:IC10_Attribute .
+	
+	favr:Anchor
+		a rdfs:Class ;
+		rdfs:label "Anchor"@en ;
+		rdfs:description "Anchor of the framing mechanism."@en ;
+		rdfs:subClassOf vir:IC10_Attribute .
+
+	favr:Mobility
+		a rdfs:Class ;
+		rdfs:label "Mobility"@en ;
+		rdfs:description "Mobility of the framing mechanism."@en ;
+		rdfs:subClassOf vir:IC10_Attribute .
 
 
 ### Mode Properties
@@ -76,6 +88,16 @@
 		rdfs:label "has framing mechanism"@en ;
 		rdfs:domain favr:Mode ;
 		rdfs:range favr:Framing_Mechanism .
+
+	favr:has_anchor a rdf:Property ;
+		rdfs:label "has anchor"@en ;
+		rdfs:domain favr:Framing_Mechanism ;
+		rdfs:range favr:Anchor .
+
+	favr:has_mobility a rdf:Property ;
+		rdfs:label "has mobility"@en ;
+		rdfs:domain favr:Framing_Mechanism ;
+		rdfs:range favr:Mobility .
 
 	favr:is_composed a rdf:Property ;
 		rdfs:label "is composed through spaces"@en ;

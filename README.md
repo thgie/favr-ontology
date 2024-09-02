@@ -146,13 +146,13 @@ Read the paper on the model at [https://journals.sfu.ca/loading/index.php/loadin
 
 ## Todos
 
-- [ ] Refactor ontology to mirror developments in the FAVR framework that are described in an [unpublished paper](https://ludov.ca/documents/publications/FAVR/fr/FAVR-article.pdf). See also the the updated [flowchart](https://ludov.ca/documents/publications/FAVR/fr/FAVR-diagramme.pdf).
+- [x] Refactor ontology to mirror developments in the FAVR framework that are described in an [unpublished paper](https://ludov.ca/documents/publications/FAVR/fr/FAVR-article.pdf). See also the the updated [flowchart](https://ludov.ca/documents/publications/FAVR/fr/FAVR-diagramme.pdf).
     - tri-planar construction became multi-planar and had *interfaces* added as a plane
     - ocularization was updated
-- [ ] Add ~~three~~ four conceptual planes to Tri-planar Construction: agents, interfaces, in- and off-game environment
-- [ ] Add controlled vocabulary to Ocularization
-- [ ] Add sub-aspects of anchor and mobility, and controlled vocabulary to Framing Mechanism
-- [ ] Add sub-aspects of graphical material, projection method, and projection angle, and controlled vocabulary to Tri-planar Construction
+- [x] Add ~~three~~ four conceptual planes to Tri-planar Construction: agents, interfaces, in- and off-game environment
+- [x] Add sub-aspects of graphical material, projection method, and projection angle
+- [x] Add sub-aspects of anchor and mobility to framing mechanism
+- [ ] Add controlled vocabulary to Ocularization, Framing Mechanism (Anchor and Mobility), and Construction Planes
 
 ## License
 
