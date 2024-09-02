@@ -18,14 +18,25 @@
 	dc:contributor "Arsenault, Dominic, Pierre-Marc Côté, Audrey Larochelle" ;
 	dc:creator "Adrian Demleitner" .
 
-
-### Classes
+## Classes
 
 	favr:Mode
 		a rdfs:Class ;
 		rdfs:label "Mode"@en ;
-		rdfs:comment "Visual modes are not an inherent reality awaiting discovery in games, but are created by the analyst for the purpose of discussing and analyzing games."@en ;
+		rdfs:comment "The function of the image in terms of game mechanics."@en ;
 		rdfs:subClassOf vir:IC9_Representation .
+
+	favr:Composition
+		a rdfs:Class ;
+		rdfs:label "Composition"@en ;
+		rdfs:comment "The composition of an image through spaces."@en ;
+		rdfs:subClassOf vir:IC10_Attribute .
+
+	favr:Construction
+		a rdfs:Class ;
+		rdfs:label "Construction"@en ;
+		rdfs:comment "The construction of an image trought planes."@en ;
+		rdfs:subClassOf vir:IC10_Attribute .
 
 	favr:Space
 		a rdfs:Class ;
@@ -33,22 +44,13 @@
 		rdfs:comment "Can be tangible, intangible, or negative."@en ;
 		rdfs:subClassOf vir:IC10_Attribute .
 
-	favr:Negative_Space
+	favr:Plane
 		a rdfs:Class ;
-		rdfs:label "Negative space"@en ;
-		rdfs:subClassOf favr:Space .
+		rdfs:label "Plane"@en ;
+		rdfs:comment "Can be agents, interfaces, in- or off-game environments."@en ;
+		rdfs:subClassOf vir:IC10_Attribute .
 
-	favr:Intangible_Space
-		a rdfs:Class ;
-		rdfs:label "Intangible space"@en ;
-		rdfs:subClassOf favr:Space .
-
-	favr:Tangible_Space
-		a rdfs:Class ;
-		rdfs:label "Tangible space"@en ;
-		rdfs:comment "Can be an agent, or in-game or off-game environment through its triplanar construction."@en ;
-		rdfs:subClassOf favr:Space .
-
+## Modes
 
 ### Mode Property Classes
 
@@ -63,12 +65,86 @@
 		rdfs:subClassOf vir:IC10_Attribute .
 
 
-### Tangible Space Property Classes
+### Mode Properties
 
-	favr:Triplanar_Construction
+	favr:has_ocularization a rdf:Property ;
+		rdfs:label "has ocularization"@en ;
+		rdfs:domain favr:Mode ;
+		rdfs:range favr:Ocularization .
+
+	favr:has_framing_mechanism a rdf:Property ;
+		rdfs:label "has framing mechanism"@en ;
+		rdfs:domain favr:Mode ;
+		rdfs:range favr:Framing_Mechanism .
+
+	favr:is_composed a rdf:Property ;
+		rdfs:label "is composed through spaces"@en ;
+		rdfs:domain favr:Mode ;
+		rdfs:range favr:Composition .
+
+	favr:is_constructed a rdf:Property ;
+		rdfs:label "is constructed through planes"@en ;
+		rdfs:domain favr:Mode ;
+		rdfs:range favr:Construction .
+
+## Spaces
+
+### Space/Plane Properties
+
+	favr:has_spaces a rdf:Property ;
+		rdfs:label "has spaces"@en ;
+		rdfs:domain favr:Composition ;
+		rdfs:range favr:Space .
+
+	favr:has_planes a rdf:Property ;
+		rdfs:label "has planes"@en ;
+		rdfs:domain favr:Construction ;
+		rdfs:range favr:Plane .
+
+### Space Classes
+
+	favr:Negative_Space
 		a rdfs:Class ;
-		rdfs:label "Triplanar Construction"@en ;
-		rdfs:subClassOf vir:IC10_Attribute .
+		rdfs:label "Negative space"@en ;
+		rdfs:subClassOf favr:Space .
+
+	favr:Intangible_Space
+		a rdfs:Class ;
+		rdfs:label "Intangible space"@en ;
+		rdfs:subClassOf favr:Space .
+
+	favr:Tangible_Space
+		a rdfs:Class ;
+		rdfs:label "Tangible space"@en ;
+		rdfs:subClassOf favr:Space .
+
+## Planes
+
+### Plane Classes
+
+	favr:Agent
+		a rdfs:Class ;
+		rdfs:label "Agent"@en ;
+		rdfs:subClassOf favr:Plane .
+
+	# Agent should be rdfs:subClassOf vir:IC11_Personification 
+
+	favr:Interface
+		a rdfs:Class ;
+		rdfs:label "Interface"@en ;
+		rdfs:subClassOf favr:Plane .
+
+	favr:In_Game_Environment
+		a rdfs:Class ;
+		rdfs:label "Agent"@en ;
+		rdfs:subClassOf favr:Plane .
+
+	favr:Off_Game_Environment
+		a rdfs:Class ;
+		rdfs:label "Agent"@en ;
+		rdfs:subClassOf favr:Plane .
+
+### Plane Property Classes
 
 	favr:Graphical_Material
 		a rdfs:Class ;
@@ -85,38 +161,20 @@
 		rdfs:label "Angle of projection"@en ;
 		rdfs:subClassOf vir:IC10_Attribute .
 
-
-### Mode Properties
-
-	favr:has_ocularization a rdf:Property ;
-		rdfs:label "has ocularization"@en ;
-		rdfs:domain favr:Mode ;
-		rdfs:range favr:Ocularization .
-
-	favr:has_framing_mechanism a rdf:Property ;
-		rdfs:label "has framing mechanism"@en ;
-		rdfs:domain favr:Mode ;
-		rdfs:range favr:Framing_Mechanism .
-
-
-### Tangible Space Properties
-
-	favr:is_triplanar_construct a rdf:Property ;
-		rdfs:label "is triplanar construct"@en ;
-		rdfs:domain favr:Tangible_Space ;
-		rdfs:range favr:Triplanar_Construction .
+### Plane Properties
 
 	favr:has_graphical_material a rdf:Property ;
 		rdfs:label "has graphical material"@en ;
-		rdfs:domain favr:Tangible_Space ;
+		rdfs:domain favr:Plane ;
 		rdfs:range favr:Graphical_Material .
 
 	favr:has_projection_method a rdf:Property ;
 		rdfs:label "has projection method"@en ;
-		rdfs:domain favr:Tangible_Space ;
+		rdfs:domain favr:Plane ;
 		rdfs:range favr:Projection_Method .
 
 	favr:has_angle_of_projection a rdf:Property ;
 		rdfs:label "has angle of projection"@en ;
-		rdfs:domain favr:Tangible_Space ;
+		rdfs:domain favr:Plane ;
 		rdfs:range favr:Angle_Of_Projection .
+
