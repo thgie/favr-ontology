@@ -188,11 +188,6 @@
 		rdfs:label "Angle of projection"@en ;
 		rdfs:subClassOf vir:IC10_Attribute .
 
-	favr:Motion
-		a rdfs:Class ;
-		rdfs:label "Motion"@en ;
-		rdfs:subClassOf vir:IC10_Attribute .
-
 ### Plane Properties
 
 	favr:has_graphical_material a rdf:Property ;
@@ -209,9 +204,4 @@
 		rdfs:label "has angle of projection"@en ;
 		rdfs:domain favr:Plane ;
 		rdfs:range favr:Angle_Of_Projection .
-
-	favr:has_motion a rdf:Property ;
-		rdfs:label "has degree of motion"@en ;
-		rdfs:domain favr:Plane ;
-		rdfs:range favr:Motion .
 

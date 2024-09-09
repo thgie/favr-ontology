@@ -47,14 +47,6 @@
         "label": "Angle of Projection",
         "property": "http://w3id.org/favr#angle-of-projection",
         "value": null
-    }, {
-        "datatype": "http://www.w3.org/2001/XMLSchema#string",
-        "hint": "static, dynamic",
-        "isConstant": false,
-        "isRequired": false,
-        "label": "Motion",
-        "property": "http://w3id.org/favr#motion",
-        "value": null
     }]
 
 
