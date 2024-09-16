@@ -167,9 +167,9 @@ Consult Pierre-Yves Hurel for a contemporary discourse on the ludeme.
 - [x] Add ~~three~~ four conceptual planes to Tri-planar Construction: agents, interfaces, in- and off-game environment
 - [x] Add sub-aspects of graphical material, projection method, and projection angle
 - [x] Add sub-aspects of anchor and mobility to framing mechanism
+- [x] Update Tropy Templates for Composition
+- [x] Add Tropy Templates for Construction
 - [ ] Add controlled vocabulary to Ocularization, Framing Mechanism (Anchor and Mobility), and Construction Planes
-- [ ] Update Tropy Templates for Composition
-- [ ] Add Tropy Templates for Construction
 
 ## License
 
