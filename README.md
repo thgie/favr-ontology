@@ -63,7 +63,7 @@ The in-game environment refers to the interactive spaces within the game where p
 The off-game environment is the background or scenery that is visually present but typically non-interactive, serving more as an aesthetic or contextual layer than a functional part of gameplay.
 
 #### Ludeme
-Ludemes are basic elements of play. A good example are the pushable blocks in the Zelda franchise, or doors opening in off-game environments in Final Fight, from which hostile NPCs appear.
+> A ludeme is the minimal unit of play or the smallest element that can be grasped by a player, in terms of game rules or game mechanics. They're essential for gameplay and can take many forms, such as these switch-orbs-and-barrier-puzzles in The Legend of Zelda: A Link to the Past. Ludemes combines both the structural aspect of game design and the experiential aspect of player engagement, and can be composed of graphics, sounds, and game mechanics. What I'm particularly interested in is their service as an interface between playing and creating games. They reflect the dual materiality of video games: playable forms and underlying code. I see ludemes as the meeting point between player agency and the game's visual representation of its internal states. (Demleitner, 2024)
 
 > “Nous conservons le terme de ludème parce qu’il véhicule l’idée d’élément minimal de jeu, mais  nous allons refondre sa définition. Pour nous, le ludème est la prise minimale du jouer. Dès lors, notre  définition du ludème associe des traits issus de deux plans épistémologiques (et c’est précisément  cette contraction qui permet de saisir la création comme travail particulier du goût). Le ludème est, d’une part, l’équivalent du morphème (entendu comme unité minimale articulant une forme et un sens) du jeu pensé comme langage. D’autre part, il est l’aspérité du jeu pensé comme pratique du goût. Nous résumons ici ces deux plans.
 
@@ -79,9 +79,6 @@ The projection method refers to the technique used to represent three-dimensiona
 
 #### Angle of Projection
 The angle of projection describes the viewpoint from which the plane is presented, such as bird’s-eye view, top-down view, ¾ view, or horizontal view.
-
-#### Motion
-The degree of motion that the plane posesses. Can be static if nothing is moving or dynamic if plane or objects within are moving.
 
 ### Properties
 
@@ -112,9 +109,6 @@ This property identifies if the visual mode includes a specific projection metho
 #### has_angle_of_projection
 This property refers to whether a visual mode uses a specific angle of projection to present the game environment, such as bird’s-eye or top-down views.
 
-#### has_motion
-This indicates that the plane has a certain degree of motion, between static to dynamic.
-
 ### Colors
 
 The spaces and planes should be color-coded. This is not possible in Tropy as of yet.
@@ -126,6 +120,7 @@ The spaces and planes should be color-coded. This is not possible in Tropy as of
 - green: [Interfaces](#interface)
 - pink: [In-game environments](#in-game-environment)
 - light-blue: [Off-game environment](#off-game-environment)
+- light-purple: [Ludeme](#ludeme)
 
 ## Tropy Templates
 - [FAVR Mode](tropy/FAVR%20Mode.ttp)
