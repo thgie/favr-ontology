@@ -123,10 +123,11 @@ The spaces and planes should be color-coded. This is not possible in Tropy as of
 - light-purple: [Ludeme](#ludeme)
 
 ## Tropy Templates
-- [FAVR Mode](tropy/FAVR%20Mode.ttp)
-- [FAVR Negative Space](tropy/FAVR%20Negative%20Space.ttp)
-- [FAVR Intangible Space](tropy/FAVR%20Intangible%20Space.ttp)
-- [FAVR Tangible Space](tropy/FAVR%20Intangible%20Space.ttp)
+- [Mode](tropy/Mode.ttp)
+- [Composition](tropy/Composition.ttp)
+- [Construction](tropy/Construction.ttp)
+- [Space](tropy/Space.ttp)
+- [Plane](tropy/Plane.ttp)
 
 ## Examples
 ### Ball Raider (1987)
